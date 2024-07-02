@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/CSharpTipsAndTricks_072024.CountBy/bin
+/CSharpTipsAndTricks_072024.CountBy/obj
+/CSharpTipsAndTricks_072024.KeysetPagination/bin
+/CSharpTipsAndTricks_072024.KeysetPagination/obj
+/CSharpTipsAndTricks_072024.Logic/bin
+/CSharpTipsAndTricks_072024.Logic/obj
+/CSharpTipsAndTricks_072024_ResultPattern/bin
+/CSharpTipsAndTricks_072024_ResultPattern/obj
+/CSharpTipsAndTricks_072024_ToLowerToUpperVSEquals/BenchmarkDotNet.Artifacts
+/CSharpTipsAndTricks_072024_ToLowerToUpperVSEquals/bin
+/CSharpTipsAndTricks_072024_ToLowerToUpperVSEquals/obj
