@@ -1,17 +1,9 @@
 using BenchmarkDotNet.Configs;
 using BenchmarkDotNet.Running;
+using CSharpTipsAndTricks_072024_ToLowerToUpperVSEquals;
 
-namespace CSharpTipsAndTricks_072024_ToLowerToUpperVSEquals
-{
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            var config = DefaultConfig.Instance;
-            var summary = BenchmarkRunner.Run<Benchmarks>(config, args);
+var config = DefaultConfig.Instance;
+var summary = BenchmarkRunner.Run<Benchmarks>(config, args);
 
-            // Use this to select benchmarks from the console:
-            // var summaries = BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args, config);
-        }
-    }
-}
+// Use this to select benchmarks from the console:
+// var summaries = BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args, config);
